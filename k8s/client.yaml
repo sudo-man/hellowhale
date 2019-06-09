@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: client
-          image: registry.sudodeploy.io/client:588
+          image: registry.sudodeploy.io/client:4543
           ports:
             - containerPort: 80
