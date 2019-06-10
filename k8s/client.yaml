@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: ${CLIENT_IMAGE_NAME}
+          image: "${CLIENT_IMAGE_NAME}"
           ports:
             - containerPort: 80
       imagePullSecrets:
