@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: "${CLIENT_IMAGE_NAME}"
+          image: registry.sudodeploy.io/client:latest
           ports:
             - containerPort: 80
       imagePullSecrets:
